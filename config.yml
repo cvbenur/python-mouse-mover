@@ -1,0 +1,23 @@
+# Script execution length (in minutes)
+run_length: -1  # '-1' is forever
+
+# Waits the duration of 'interval_between' before program launch (`True` or `False`)
+leading_sleep: True
+
+movement:
+  # Time between mouse movements (in seconds)
+  interval_between: 10
+
+  # Duration of a mouse movement (in seconds)
+  duration: 0.25
+
+  # Pauses the script while you are using the mouse (`True` or `False`)
+  pause_on_mouse_move: True
+
+# # Base values for random coordinates generation (default is 0)
+# base_coordinates:
+#   # Width
+#   base_x: 0
+#
+#   # Height
+#   base_y: 0
