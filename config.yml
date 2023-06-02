@@ -1,7 +1,7 @@
 # Script execution length (in minutes)
 run_length: -1  # '-1' is forever
 
-# Waits the duration of 'interval_between' before program launch (`True` or `False`)
+# Waits for the duration of 'movement.interval_between' before program launch (`True` or `False`)
 leading_sleep: True
 
 movement:
