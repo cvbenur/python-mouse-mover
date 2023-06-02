@@ -6,9 +6,14 @@ A very simple, configurable Python script that moves your cursor to a random poi
 
 Make sure you have Python (at least `3.0`) installed on your machine.
 
-Next, open a prompt and navigate to the script's location.
+First, clone this repository and navigate into the install folder with:
 
-Install the required dependencies with:
+```sh
+git clone git@github.com:cvbenur/python-mouse-mover.git
+cd python-mouse-mover
+```
+
+Once this is done, install the required dependencies with:
 
 ```sh
 pip install -r requirements.txt
@@ -16,15 +21,13 @@ pip install -r requirements.txt
 
 ## ▶️ Usage
 
-First, open a prompt, and navigate to the script's location.
-
-Run the script with:
+Open a terminal and navigate to the script's location. Then, run the script with:
 
 ```sh
 python3 mouse_mover.py
 ```
 
-To stop the script's execution, just close the prompt.
+To stop the script's execution, just close the prompt where the script is running.
 
 ## 🛠️ Configuration
 
